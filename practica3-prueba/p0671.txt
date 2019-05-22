@@ -1,0 +1,38 @@
+mete [2,2] true
+mete [2,0] true
+ObjetoNoValidoException: [0,-1]
+mete [4,4] true
+ObjetoNoValidoException: [-1,1]
+mete [1,0] true
+mete [0,0] true
+mete [3,0] true
+ObjetoNoValidoException: [3,-1]
+mete [3,4] true
+ObjetoNoValidoException: [-1,-1]
+ObjetoNoValidoException: [2,-1]
+FichaRepetidaException: [0,3]
+mete [1,1] true
+FichaRepetidaException: [0,1]
+mete [2,1] true
+FichaRepetidaException: [0,2]
+mete [4,2] true
+ObjetoNoValidoException: [-1,3]
+ObjetoNoValidoException: [-1,4]
+mete [1,4] true
+mete [3,2] true
+FichaRepetidaException: [4,1]
+FichaRepetidaException: [4,3]
+mete [3,3] true
+ObjetoNoValidoException: [-1,0]
+FichaRepetidaException: [2,3]
+FichaRepetidaException: [1,2]
+ObjetoNoValidoException: [4,-1]
+ObjetoNoValidoException: [1,-1]
+mete [3,1] true
+FichaRepetidaException: [2,4]
+ObjetoNoValidoException: [-1,2]
+mete [4,0] true
+FichaRepetidaException: [0,4]
+FichaRepetidaException: [1,3]
+SacoIncompletoException: 15
+{[2,2],[2,0],[4,4],[1,0],[0,0],[3,0],[3,4],[1,1],[2,1],[4,2],[1,4],[3,2],[3,3],[3,1],[4,0]}

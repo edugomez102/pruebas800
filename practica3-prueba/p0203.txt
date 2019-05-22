@@ -1,0 +1,120 @@
+mete [1,2] true
+mete [3,1] true
+mete [3,6] true
+mete [3,0] true
+FichaRepetidaException: [0,3]
+mete [5,3] true
+mete [0,4] true
+mete [4,5] true
+mete [2,2] true
+mete [6,6] true
+mete [1,1] true
+mete [5,0] true
+mete [5,1] true
+mete [2,4] true
+mete [1,0] true
+mete [6,5] true
+mete [2,0] true
+FichaRepetidaException: [4,2]
+mete [2,6] true
+FichaRepetidaException: [6,2]
+mete [3,3] true
+mete [5,5] true
+mete [2,3] true
+mete [6,0] true
+mete [4,3] true
+mete [2,5] true
+mete [1,6] true
+FichaRepetidaException: [4,0]
+FichaRepetidaException: [0,2]
+mete [0,0] true
+mete [6,4] true
+FichaRepetidaException: [1,5]
+FichaRepetidaException: [3,2]
+mete [4,4] true
+mete [4,1] true
+mete [1,4] false
+mete [3,4] false
+mete [5,4] false
+mete [6,1] false
+mete [1,3] false
+mete [6,3] false
+mete [0,1] false
+mete [2,1] false
+mete [5,6] false
+mete [5,2] false
+mete [0,5] false
+mete [0,6] false
+mete [4,6] false
+mete [3,5] false
+Nombre0 roba true
+Nombre1 roba true
+Nombre2 roba true
+Nombre3 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre2 roba true
+Nombre3 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre2 roba true
+Nombre3 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre2 roba true
+Nombre3 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre2 roba true
+Nombre3 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre2 roba true
+Nombre3 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre2 roba true
+Nombre3 roba true
+Nombre0 juega [6,6]
+Nombre1 juega [6,4]
+Nombre2 juega [5,6]
+Nombre3 juega [1,5]
+Nombre0 juega [4,2]
+Nombre1 juega [3,1]
+Nombre2 juega [6,3]
+Nombre3 juega [1,6]
+Nombre0 juega [2,6]
+Nombre1 juega [1,1]
+Nombre2 juega null
+Nombre2 roba false
+Nombre3 juega [4,1]
+Nombre0 juega [6,0]
+Nombre1 juega [3,4]
+Nombre2 juega [0,5]
+Nombre3 juega [2,3]
+Nombre0 juega [5,3]
+Nombre1 juega [3,3]
+Nombre2 juega [5,2]
+Nombre3 juega [3,0]
+Nombre0 juega [0,0]
+Nombre1 juega [0,4]
+Nombre2 juega [5,5]
+Nombre3 juega null
+Nombre3 roba false
+Nombre0 juega null
+Nombre0 roba false
+Nombre1 juega null
+Nombre1 roba false
+Nombre2 juega [4,5]
+Nombre3 juega null
+Nombre3 roba false
+Nombre0 juega null
+Nombre0 roba false
+Nombre1 juega null
+Nombre1 roba false
+PartidaGanadaException: Nombre2
+{[4,5],[5,5],[5,2],[2,3],[3,4],[4,1],[1,1],[1,6],[6,3],[3,1],[1,5],[5,6],[6,6],[6,4],[4,2],[2,6],[6,0],[0,5],[5,3],[3,3],[3,0],[0,0],[0,4],[4,4]}
+Nombre0{[1,2]}
+Nombre1{[1,0]}
+Nombre2{}
+Nombre3{[2,2],[2,0]}

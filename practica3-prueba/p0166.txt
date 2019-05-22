@@ -1,0 +1,87 @@
+mete [3,1] true
+mete [5,6] true
+FichaRepetidaException: [1,3]
+mete [0,6] true
+mete [1,5] true
+mete [1,0] true
+mete [6,4] true
+mete [3,5] true
+mete [0,0] true
+FichaRepetidaException: [5,3]
+mete [5,2] true
+mete [2,2] true
+FichaRepetidaException: [5,1]
+mete [3,4] true
+mete [4,4] true
+mete [5,4] true
+mete [0,4] true
+FichaRepetidaException: [2,5]
+mete [1,6] true
+mete [5,0] true
+mete [2,0] true
+FichaRepetidaException: [4,5]
+mete [3,6] true
+mete [3,0] true
+FichaRepetidaException: [4,6]
+FichaRepetidaException: [0,1]
+FichaRepetidaException: [6,5]
+FichaRepetidaException: [6,3]
+mete [3,3] true
+mete [5,5] true
+FichaRepetidaException: [0,2]
+FichaRepetidaException: [0,3]
+mete [6,2] true
+mete [2,3] true
+FichaRepetidaException: [6,0]
+FichaRepetidaException: [4,0]
+mete [1,4] true
+mete [1,1] true
+mete [6,6] true
+FichaRepetidaException: [3,2]
+FichaRepetidaException: [6,1]
+FichaRepetidaException: [4,1]
+mete [2,1] true
+mete [4,2] true
+mete [0,5] false
+mete [4,3] false
+mete [1,2] false
+mete [2,4] false
+mete [2,6] false
+Nombre0 roba true
+Nombre1 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre0 roba true
+Nombre1 roba true
+Nombre1 juega [5,6]
+Nombre0 juega [4,5]
+Nombre1 juega [6,4]
+Nombre0 juega [0,6]
+Nombre1 juega [4,0]
+Nombre0 juega [3,4]
+Nombre1 juega null
+Nombre1 roba true
+Nombre0 juega [5,3]
+Nombre1 juega [6,1]
+Nombre0 juega [2,5]
+Nombre1 juega [1,5]
+Nombre0 juega null
+Nombre0 roba true
+Nombre1 juega [2,2]
+Nombre0 juega [5,0]
+Nombre1 juega [0,0]
+Nombre0 juega [0,1]
+Nombre1 juega null
+Nombre1 roba true
+PartidaGanadaException: Nombre0
+{[2,2],[2,5],[5,3],[3,4],[4,0],[0,6],[6,4],[4,5],[5,6],[6,1],[1,5],[5,0],[0,0],[0,1],[1,3]}
+Nombre0{}
+Nombre1{[4,4],[2,0]}

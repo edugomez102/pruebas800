@@ -1,0 +1,44 @@
+mete [2,1] true
+mete [0,4] true
+ObjetoNoValidoException: [-1,2]
+mete [2,4] true
+mete [1,3] true
+ObjetoNoValidoException: [-1,1]
+mete [1,1] true
+FichaRepetidaException: [3,1]
+mete [2,3] true
+mete [3,3] true
+ObjetoNoValidoException: [0,-1]
+mete [3,5] true
+mete [4,1] true
+ObjetoNoValidoException: [1,-1]
+mete [4,4] true
+ObjetoNoValidoException: [-1,0]
+ObjetoNoValidoException: [-1,3]
+mete [0,2] true
+ObjetoNoValidoException: [3,-1]
+ObjetoNoValidoException: [-1,-1]
+mete [4,5] true
+mete [1,5] true
+ObjetoNoValidoException: [-1,4]
+FichaRepetidaException: [1,4]
+FichaRepetidaException: [3,2]
+mete [4,3] true
+mete [0,3] true
+ObjetoNoValidoException: [2,-1]
+mete [2,2] true
+ObjetoNoValidoException: [-1,5]
+ObjetoNoValidoException: [4,-1]
+FichaRepetidaException: [2,0]
+FichaRepetidaException: [1,2]
+mete [0,0] true
+mete [1,0] true
+FichaRepetidaException: [3,4]
+mete [2,5] true
+FichaRepetidaException: [0,1]
+mete [0,5] true
+FichaRepetidaException: [4,2]
+FichaRepetidaException: [3,0]
+FichaRepetidaException: [4,0]
+SacoIncompletoException: 20
+{[2,1],[0,4],[2,4],[1,3],[1,1],[2,3],[3,3],[3,5],[4,1],[4,4],[0,2],[4,5],[1,5],[4,3],[0,3],[2,2],[0,0],[1,0],[2,5],[0,5]}
