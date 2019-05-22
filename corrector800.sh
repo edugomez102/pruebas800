@@ -24,7 +24,7 @@ while [[ true ]]; do
 		cont=0
 		for (( i = 5; i <= 807; i++ )); do
 			#statements
-			dif=$(diff -w practica3-prueba/p0$i.sal practica3-prueba/p0$i.txt)
+			dif=$(diff practica3-prueba/p0$i.sal practica3-prueba/p0$i.txt)
 			if [[ -n "$dif" ]]; then
 				#statements
 				echo "  --->$i Hay DIFERENCIA"
@@ -51,7 +51,7 @@ while [[ true ]]; do
 				#statements
 				if [[ i -eq num ]]; then
 					#statements
-					diff -w -s practica3-prueba/p0$i.sal practica3-prueba/p0$i.txt
+					diff -s practica3-prueba/p0$i.sal practica3-prueba/p0$i.txt
 					cat practica3-prueba/p0$i.sal > propio$i.txt 
 					cat practica3-prueba/p0$i.txt > alicia$i.txt
 				fi
@@ -68,7 +68,7 @@ while [[ true ]]; do
 					# echo "  $num"
 					javac Juego.java
 					java Juego practica3-prueba/p0$num.ent practica3-prueba/p0$num.sal 
-					diff -w -s practica3-prueba/p0$num.sal practica3-prueba/p0$num.txt
+					diff -s practica3-prueba/p0$num.sal practica3-prueba/p0$num.txt
 					cat practica3-prueba/p0$num.sal > propio$num.txt 
 					cat practica3-prueba/p0$num.txt > alicia$num.txt
 					echo ""
