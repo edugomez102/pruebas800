@@ -69,6 +69,8 @@ while [[ true ]]; do
 					javac Juego.java
 					java Juego practica3-prueba/p0$num.ent practica3-prueba/p0$num.sal 
 					diff -w -s practica3-prueba/p0$num.sal practica3-prueba/p0$num.txt
+					cat practica3-prueba/p0$num.sal > propio$num.txt 
+					cat practica3-prueba/p0$num.txt > alicia$num.txt
 					echo ""
 				else
 					rm propio$num.txt && rm alicia$num.txt
