@@ -5,4 +5,5 @@ Descomprimís el archivo que se os descarga(aquí arriba a la dercha en el botó
     sudo chmod +x corrector800.sh
     chmod 777 corrector800.sh
 ## Recordad poned 'todo' en el corrector800.sh antes de nada
+Si después de darle a todo no aparece el siguiente número que corresponde significa que el programa ha entrado en bucle
 ## No es 100% fiable el corrector800.sh así que pasad también el corrige.sh POR SI ACASO
