@@ -24,7 +24,7 @@ while [[ true ]]; do
 		cont=0
 		for (( i = 5; i <= 807; i++ )); do
 			#statements
-			dif=$(diff practica3-prueba/p0$i.sal practica3-prueba/p0$i.txt)
+			dif=$(diff -w practica3-prueba/p0$i.sal practica3-prueba/p0$i.txt)
 			if [[ -n "$dif" ]]; then
 				#statements
 				echo "  --->$i Hay DIFERENCIA"
@@ -38,20 +38,20 @@ while [[ true ]]; do
 	elif [[ "$lee" = "unica" ]]; then
 		#statements
 		while [[ true ]]; do				
-		echo "  Introduce numero de diferencia rango [6,306]:"
+		echo "  Introduce numero de diferencia rango [6,807]:"
 		echo "  el primer archivo sera el propio y el segundo el de Alicia"
 		echo "  tambien se crearan dos archivos .txt en la carpeta donde se encuentran los ficheros fuente de java"
 		echo "  se eliminaran automaticamente al cambiar de diferencia"
 		echo "  Escribe otra cosa para volver"
 		read num
 		echo ""
-		if [[ "$num" -ge 6 ]] && [[ "$num" -le 306 ]]; then
+		if [[ "$num" -ge 6 ]] && [[ "$num" -le 807 ]]; then
 			#statements
 			for (( i = 5; i <= 807; i++ )); do
 				#statements
 				if [[ i -eq num ]]; then
 					#statements
-					diff -s practica3-prueba/p0$i.sal practica3-prueba/p0$i.txt
+					diff -w -s practica3-prueba/p0$i.sal practica3-prueba/p0$i.txt
 					cat practica3-prueba/p0$i.sal > propio$i.txt 
 					cat practica3-prueba/p0$i.txt > alicia$i.txt
 				fi
@@ -68,9 +68,7 @@ while [[ true ]]; do
 					# echo "  $num"
 					javac Juego.java
 					java Juego practica3-prueba/p0$num.ent practica3-prueba/p0$num.sal 
-					diff -s practica3-prueba/p0$num.sal practica3-prueba/p0$num.txt
-					cat practica3-prueba/p0$num.sal > propio$num.txt 
-					cat practica3-prueba/p0$num.txt > alicia$num.txt
+					diff -w -s practica3-prueba/p0$num.sal practica3-prueba/p0$num.txt
 					echo ""
 				else
 					rm propio$num.txt && rm alicia$num.txt
